@@ -2,21 +2,18 @@ h1.name {
     font-family: 'Abril Fatface', cursive;
     text-align: center;
     position: fixed;
-}
-mainContainer {
-    height: 10em;
-    position: relative
-}
-mainContainer, h1{
     margin: 0;
-    position: absolute;
     top: 40%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+}
+
+.mainContainer {
+
         
 }
-navbar, ul{
+.navbar, u{
     margin: 0;
     padding: 0;
     position: absolute;
@@ -65,11 +62,13 @@ a:active {
 @media only screen and (min-width: 600px) {
     body {
         background-image: url("../images/background2.png");
+        background-repeat: no-repeat;
     }
 }
 @media only screen and (min-width: 800px) {
     body {
         background-image: url("../images/background.png");
+        background-repeat: no-repeat;
     }
     h1.name {
         color: white;
