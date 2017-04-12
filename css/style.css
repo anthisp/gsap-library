@@ -1,0 +1,42 @@
+h1.name {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+mainContainer {
+    height: 10em;
+    position: relative
+}
+mainContainer, h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+        
+}
+navbar , h3{
+    margin: 0;
+    position: absolute;
+    top:57%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+a:link {
+    color:lightblue;
+    text-decoration: none;
+}
+a:visited {
+    color:lightblue;
+    text-decoration: none;
+}
+a:hover {
+    color:black;
+    text-decoration: underline;
+}
+a:active {
+    color:lightblue;
+    text-decoration: none;
+}
