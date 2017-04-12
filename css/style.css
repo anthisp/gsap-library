@@ -3,6 +3,7 @@ h1.name {
     text-align: center;
     position: fixed;
     margin: 0;
+    position: absolute;
     top: 40%;
     left: 50%;
     margin-right: -50%;
@@ -10,10 +11,10 @@ h1.name {
 }
 
 .mainContainer {
-
+//
         
 }
-.navbar, u{
+navbar, ul{
     margin: 0;
     padding: 0;
     position: absolute;
@@ -62,12 +63,14 @@ a:active {
 @media only screen and (min-width: 600px) {
     body {
         background-image: url("../images/background2.png");
+        
         background-repeat: no-repeat;
     }
 }
 @media only screen and (min-width: 800px) {
     body {
         background-image: url("../images/background.png");
+        
         background-repeat: no-repeat;
     }
     h1.name {
