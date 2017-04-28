@@ -8,29 +8,30 @@ h1.name {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    text-shadow: 2px 2px #FFFFFF;
 }
 
 .mainContainer {
+//
         
 }
-navbar, ul{
+.navbar, ul{
     margin: 0;
     padding: 0;
     position: absolute;
     top:49%;
-    left:50%;
+    left:25%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    display: inline-block;
     background-color: #333;
     border-radius: 25px;
 }
-navbar, li {
+.navbar, li {
     display: inline-block;
     font-size: 1em;
 }
-navbar, li, a{
+.navbar, li, a{
     color: white;
     padding: 14px 16px;
     
@@ -59,7 +60,7 @@ a:active {
         top: 65%;  
     }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) {
     body {
         background-image: url("../images/background2.png");
         
